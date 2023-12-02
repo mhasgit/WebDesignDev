@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styling header */
+.header {
+    background-color: #ffffff;
+}
+
+header {
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* styling nav bar */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li:first-child {
+    margin-right: auto;
+    margin-left: 90px;
+}
+
+nav li:first-child img {
+    height: 31px;
+    width: 143px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    color: var(--Black);
+}
+
+nav a:hover {
+    color: #fdc00f;
+}
+
+nav li:not(:first-child) {
+    margin-left: 18px;
+}
+
+nav li:nth-child(2) {
+    color: #fdc00f;
+}
+
+nav li:last-child {
+    margin-right: 180px;
+}
+
+nav li:last-child button {
+    background-color: #fdc00f;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+nav li:last-child button:hover {
+    background-color: #d9b137;
+    font-weight: normal;
+}
+
+/* styling content for course */
+
+.course-container {
+    background-color: #666666;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 320px;
+    z-index: 1;
+    align-items: center;
+}
+
+.course-container h1 {
+    position: relative;
+    color: white;
+    bottom: 38px;
+    right: 402px;
+    z-index: 4;
+}
+
+.course-btn {
+    position: absolute;
+    bottom: 6.7rem;
+    right: 65rem;
+    z-index: 4;
+}
+
+.course-box {
+    position: absolute;
+    background-color: #fdc00f;
+    height: 230px;
+    width: 230px;
+    top: 36px;
+    left: 72px;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+.course-register {
+    position: absolute;
+    background-color: #fdc00f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 70rem;
+    top: 288px;
+    left: 72px;
+    z-index: 3;
+    gap: 12px
+}
+
+.course-register input {
+    padding: 8px;
+    width: 17.5rem;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+}
+
+.content-container > div {
+    border: 1.5px solid lightgrey;
+    border-style: none solid solid none;
+    padding: 21px;
+    height: 118px;
+    width: 310px;
+    margin-top: 5px;
+}
+
+.content-container h2 {
+    margin-bottom: 5px;
+}
+
+/* popular course section */
+.popular-courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    position: relative;
+    height: 27rem;
+}
+
+.course-card{
+    height: 22rem;
+    margin: 10px;
+    padding: 15px;
+    flex-basis: 21%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0)
+}
+.course-card .card-img {
+    margin-bottom: 13px;
+}
+.card-img {
+    width: 104%;
+    height: auto;
+}
+
+.card-1{
+    border: 1.5px #d7d7d7;
+    border-style: none none groove groove;
+}
+
+.card-2{
+    border: 1.4px solid #d7d7d7;
+    border-style: none none groove none;
+}
+
+.card-3{
+    border: 1.4px solid #d7d7d7;
+    border-style: none groove groove none;
+}
+
+.price-label{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    top: 8.7rem;
+    left: 14.8rem;
+    background-color: #fdc00f;
+    border-radius: 18px;
+    width: 170px;
+    height: 30px;
+    border-top: 1.5px solid white;
+}
+
+.price-label span{
+    padding: 10px;
+    color: white;
+}
+
+.price-label hr {
+    border: none;
+    height: 31px;
+    background-color: white;
+    width: 1px;
+    margin: 0;
+}
+
+.card-2 .price-label{
+    top: 8.7rem;
+    left: 32.8rem;
+}
+
+.card-3 .price-label{
+    top: 8.7rem;
+    left: 50.8rem;
+}
+
+.course-card .teacher-img{
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.teacher-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -3.8rem;
+    margin-left: 17px;
+    gap: 12px;
+}
+
+.teacher-info h5{
+    margin-left: -10px;
+}
+
+/* footer styling */
+.footer{
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    height: 20rem;
+    gap: 4rem;
+}
+
+.map-address img{
+    width: 85%;
+    height: auto;
+}
+
+.important-links ul li:first-child{
+    padding-top: 1rem;
+}
+.important-links ul{
+    list-style-type: none;
+}
+
+.important-links ul li{
+    padding-bottom: 1rem;
+}
+
+.important-links ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.short-desc{
+    display: block;
+    width: 20rem;
+}
+
+.short-desc img{
+    padding-bottom: 1rem;
+}
+
+.copyright-warrant{
+    background-color: #333333;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
