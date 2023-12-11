@@ -1,0 +1,78 @@
+.container-fluid {
+    background-color: #f1faff;
+}
+
+.navbar .navbar-brand {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand span {
+    color: #fec007;
+}
+
+.navbar .nav-item .nav-link {
+    color: black;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #fec007;
+}
+
+.carousel-caption p {
+    margin: 0 0 5px;
+}
+
+.carousel-caption button {
+    margin-top: 10px;
+    margin-bottom: 6rem;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 110%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.service img {
+    width: 350px;
+    height: 300px;
+}
+
+.custom-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.custom-size {
+    height: 25rem;
+}
+
+.img-size {
+    height: 150px;
+    width: 150px;
+}
+
+.social-icons i {
+    margin-right: 6px;
+}
+
+.form-container {
+    padding: 2rem;
+    background-color: #f8f9fb;
+}
+
+.form-footer {
+    background-color: #212429;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.btn-warning {
+    color: black;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
