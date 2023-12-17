@@ -76,3 +76,8 @@
     background-color: #ffc107;
     border-color: #ffc107;
 }
+
+.form-footer{
+    padding: 8px;
+    border-radius: 5px;
+}
