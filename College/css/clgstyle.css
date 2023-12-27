@@ -1,0 +1,159 @@
+h4::before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background-color: #ffc600;
+    bottom: 14rem;
+    left: 16px;
+}
+
+.news-description h1 {
+    font-size: 3.5rem;
+}
+
+.intel-com a {
+    color: black;
+    text-decoration: none;
+}
+
+.intel-com a:hover {
+    color: #ffc600;
+    transition: 0.6s
+}
+
+
+.patnar-slied {
+    background-color: #eceff1;
+    height: 20rem;
+    padding: 100px 78px 61px 80px;
+}
+
+.patnar-slied div {
+    text-align: center;
+}
+
+
+.patnar-slied img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 178px;
+}
+
+.footer-top {
+    background-color: #07294d;
+    color: #fff;
+    height: 37rem;
+}
+
+.footer-about {
+    padding-right: 50px;
+}
+
+.footer-about img{
+    max-width: 80%;
+}
+
+.footer-about p {
+    padding-top: 15px;
+    margin: 2px;
+    font-size: 16px;
+}
+
+.footer-about ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-about ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-about ul li i{
+    width: 35px;
+    line-height: 35px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10rem;
+    text-align: center;
+    background-color: #021d3a;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+
+}
+
+
+.footer-about ul li i:hover {
+    background-color: #ffc600;
+    color: #021d3a;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+
+.footer-title h6 {
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer-link {
+    overflow: hidden;
+}
+
+.footer-link ul {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.footer-link ul li {
+    line-height: 35px;
+}
+
+.footer-link ul li a {
+    color: #fff;
+    font-size: 15px;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.footer-link ul li a i {
+    margin-right: 8px;
+    color: #ffc600;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.footer-link ul li a:hover {
+    color: #ffc600;
+    text-decoration: none;
+}
+
+.footer-link ul li a:hover i {
+    margin-right: 15px;
+}
+
+.support ul {
+    float: none;
+    width: 100%;
+}
+
+.footer-address ul li {
+    margin-bottom: 10px;
+}
+
+.footer-address ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-address ul li i {
+    font-size: 20px;
+    color: #ffc600;
+    margin-right: 1rem;
+}
+
+.footer-bottom{
+    background-color: #021d3a;
+    height: 3rem;
+}

@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f3d1ff;
+}
+
+
+.navbar .container-fluid {
+    background-color: #7f3697;
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: 180px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: whitesmoke;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(69, 7, 85);
+}
+
+.carousel-item img {
+    max-height: 30rem;
+    max-width: 100%;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 110%;
+    top: 0;
+    left: 0;
+}
+
+.caption-text h1 {
+    color: #f3d1ff;
+}
+
+.caption-text p {
+    margin: 0;
+}
+
+.btn {
+    background-color: #7f3697;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover {
+    color: rgb(69, 7, 85);
+}
+
+.custom-card {
+    background-color: rgb(69, 7, 85);
+    max-height: 27rem;
+}
+
+.custom-card img {
+    max-height: 170px;
+    max-width: 200px;
+}
+
+.custom-card .btn {
+    background-color: #7f3697;
+}
+
+.img-fluid {
+    height: 280px;
+}
+
+.footer{
+    background-color: #7f3697;
+    margin: -12px;
+    padding: 0;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: #410d52;
+    text-decoration: underline;
+}
+
+.social-links{
+    background-color: #410d52;
+}
+
+.social-links i:hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.myform h1{
+    color: #7f3697;
+}
+
+.our-story{
+    margin-left: 5rem;
+}
+
+.our-story p{
+    margin: 0;
+}
+
+.List-description li{
+    list-style: circle;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+    display: block;
+}
