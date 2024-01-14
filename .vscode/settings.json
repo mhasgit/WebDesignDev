@@ -1,3 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/Eminent Enterprise/Index.html"
+    "livePreview.defaultPreviewPath": "/Eminent Enterprise/Index.html",
+    "liveServer.settings.port": 5501
 }
