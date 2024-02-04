@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   padding: 0;
   margin: 0;
-}
+
 
 #top {
   color: #dee2e6;
@@ -37,10 +37,6 @@ a {
 }
 
 /* SLIDER SECTION */
-
-.carousel-item {
-  height: 100vh;
-}
 
 .carousel-caption {
   bottom: 220px;
@@ -251,65 +247,16 @@ a {
   border-bottom: 2px solid rgb(255, 193, 7);
 }
 
-.ms-10 {
-  margin-left: 80px;
-}
-
 .ms-10 h1 {
   font-size: 50px;
   font-weight: bold;
 }
 
-/* .scroll-container {
-    overflow: hidden;
-    white-space: nowrap;
-    padding: 20px;
-    scrollbar-width: thin;
-    scrollbar-color: transparent transparent;
-    scroll-behavior: smooth;
-  }
-  
-  .cards-wrapper {
-    display: flex;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .card {
-    flex: 0 0 auto;
-    width: 380px;
-    margin-right: 20px;
-    box-shadow: rgba(0, 0, 0, 0.176) 0px 1rem 3rem;
-    overflow: hidden;
-  }
-  
-  .card img {
-    transition: transform 0.3s ease-in-out 0s;
-  }
-  
-  .scroll-container::-webkit-scrollbar {
-    width: 8px;
-  }
-  
-  .scroll-container::-webkit-scrollbar-thumb {
-    background-color: transparent;
-  }
-  
-  .scroll-container {
-    scrollbar-width: thin;
-    scrollbar-color: transparent transparent;
-  }
-  .card h4:hover {
-    color: #ffc600;
-  }
-  .card:hover img {
-    transform: scale(1.2);
-    transition: transform 0.3s ease-in-out;
-  } */
-
 .scroll-container {
   overflow: hidden;
   white-space: nowrap;
   padding: 20px;
+  width: 87%;
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
 }
@@ -321,7 +268,7 @@ a {
 
 .card {
   flex: 0 0 auto;
-  width: 380px;
+  width: 300px;
   margin-right: 20px;
   box-shadow: rgba(0, 0, 0, 0.176) 0px 1rem 3rem;
   overflow: hidden;
@@ -353,6 +300,7 @@ a {
 }
 
 /* Feature teacher */
+
 .text1 h6 {
   font-weight: bold;
   padding-top: 18px;
@@ -466,8 +414,7 @@ a {
 .content {
   background: #07294d;
   width: 100%;
-  height: 600px;
-  opacity: 0.7;
+  max-height: 500px;
   padding-left: 55px;
   padding-top: 65px;
 }
@@ -533,7 +480,9 @@ a {
   width: 100%;
 }
 
-.carousel-indicators {
+/* for the time being i disabled it */
+
+/* .carousel-indicators {
   position: static;
   margin-top: 20px;
 }
@@ -549,18 +498,9 @@ a {
 
 .carousel-indicators .active {
   background-color: #b9b536;
-}
+} */
 
 /* News Section */
-h4::before {
-  content: '';
-  position: absolute;
-  width: 35px;
-  height: 2px;
-  background-color: #ffc600;
-  bottom: 14rem;
-  left: 16px;
-}
 
 .news-description h1 {
   font-size: 3.5rem;
@@ -710,4 +650,5 @@ h4::before {
 .footer-bottom {
   background-color: #021d3a;
   height: 3rem;
+}
 }
