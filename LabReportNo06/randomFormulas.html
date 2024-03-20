@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        // Area Of Rectangle
+        function calculateAreaOfRectangle() {
+            var length = document.getElementById('rectangleLength').value;
+            var width = document.getElementById('rectangleWidth').value;
+            var area = length * width;
+            alert('Area of Rectangle: ' + area);
+        }
+        // Area Of Circle
+        function calculateAreaOfCircle() {
+            var radius = document.getElementById('circleRadius').value;
+            var area = Math.PI * radius * radius;
+            alert('Area of Circle: ' + area);
+        }
+        // Volume Of a Box
+        function calculateVolumeOfBox() {
+            var length = document.getElementById('boxLength').value;
+            var width = document.getElementById('boxWidth').value;
+            var height = document.getElementById('boxHeight').value;
+            var volume = length * width * height;
+            alert('Volume of Box: ' + volume);
+        }
+        // Volume Of a Cylinder
+        function calculateVolumeOfCylinder() {
+            var radius = document.getElementById('cylinderRadius').value;
+            var height = document.getElementById('cylinderHeight').value;
+            var volume = Math.PI * radius * radius * height;
+            alert('Volume of Cylinder: ' + volume);
+        }
+        // Doller To Rupee
+        function convertDollarToRupee() {
+            var dollar = document.getElementById('dollarAmount').value;
+            var rupee = dollar * 280;
+            alert('Dollars in Rupees: ' + rupee);
+        }
+        // Rupee To Pound
+        function convertRupeeToPound() {
+            var rupee = document.getElementById('rupeeAmount').value;
+            var pound = rupee * (1 / 340);
+            alert('Rupees in Pounds: ' + pound.toFixed(2));
+        }
+        // Pound To Dollar
+        function convertPoundToDollar() {
+            var pound = document.getElementById('poundAmount').value;
+            var dollar = pound * 1.26;
+            alert('Pounds in Dollars: ' + dollar.toFixed(2));
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <h1>Area Of Rectangle</h1>
+    Length: <input type="number" id="rectangleLength">
+    Width: <input type="number" id="rectangleWidth">
+    <button onclick="calculateAreaOfRectangle()">Calculate Area of Rectangle</button>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1>Area Of Circle</h1>
+    Radius: <input type="number" id="circleRadius">
+    <button onclick="calculateAreaOfCircle()">Calculate Area of Circle</button>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1>Volume Of a Box</h1>
+    Length: <input type="number" id="boxLength">
+    Width: <input type="number" id="boxWidth">
+    Height: <input type="number" id="boxHeight">
+    <button onclick="calculateVolumeOfBox()">Calculate Volume of Box</button>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1>Volume Of a Cylinder</h1>
+    Radius: <input type="number" id="cylinderRadius">
+    Height: <input type="number" id="cylinderHeight">
+    <button onclick="calculateVolumeOfCylinder()">Calculate Volume of Cylinder</button>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1>Doller To Rupee</h1>
+    Dollar: <input type="number" id="dollarAmount">
+    <button onclick="convertDollarToRupee()">Convert Dollar to Rupee</button>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1>Rupee To Pound</h1>
+    Rupee: <input type="number" id="rupeeAmount">
+    <button onclick="convertRupeeToPound()">Convert Rupee to Pound</button>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1>Pound To Dollar</h1>
+    Pound: <input type="number" id="poundAmount">
+    <button onclick="convertPoundToDollar()">Convert Pound to Dollar</button>
+
+</body>
+
+</html>
